@@ -7,7 +7,7 @@ async function bootstrap() {
         cors: true,
     });
     app.setGlobalPrefix("api");
-    await app.listen(port);
+    await app.listen(process.env.PORT, "0.0.0.0");
 
     console.log(`App listening on: http://localhost:${port}/api`);
 }
