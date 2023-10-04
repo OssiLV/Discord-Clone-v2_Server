@@ -8,9 +8,9 @@ import { UsersModule } from "./users/users.module";
 import { FileUploadModule } from "./file-upload/file-upload.module";
 import { ServerModule } from "./server/server.module";
 import { JwtModule } from "@nestjs/jwt";
-import { ExtensionsModule } from './extensions/extensions.module';
-import { ChannelModule } from './channel/channel.module';
-import { MessageModule } from './socket/message/message.module';
+import { ExtensionsModule } from "./extensions/extensions.module";
+import { ChannelModule } from "./channel/channel.module";
+import { MessageModule } from "./socket/message/message.module";
 
 @Module({
     imports: [
